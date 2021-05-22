@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="login01.html">
+    <link rel="stylesheet" href="registrado.html">
+    <script src="js/main.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+</head>
+<body background="img/fondo1.jpg">
+
+    <!--MENÚ DE REGISTRO-->
+    <form action="formulario.html" class="form-box-formulario animated fadeInUp">
+        <center>
+            <h1 class="form-title-formulario">Regístrate</h1>
+        </center>
+            
+        <center>
+            <label for="name">Nombre de usuario</label><input type="text" name="username" id="username" placeholder="Ingrese su nombre de usuario" required minlength="5" maxlength="14">
+        </center>
+
+        <center>
+            <label for="contraseña">Ingrese su contraseña</label><input type="password" name="constraseña" id="constraseña" placeholder="Constraseña" required minlength="5" maxlength="14">
+        </center>
+            
+        <center>
+            <label for="contraseña2">Ingrese su contraseña nuevamente</label><input type="password" name="contraseña2" id="contraseña2" placeholder="Reingrese su contraseña" required minlength="5" maxlength="14">
+        </center>
+            
+        <center>
+            <label for="mail">Correo electrónico</label> <input type="email" name="mail" id="mail" placeholder="Ingrese su mail" required>
+        </center>
+            
+        <center>
+            <button type="submit"><a href="registrado.html">Registrarse</a></button>
+        </center>
+
+        <center>
+            <div class="botonVolver"><a href="login01.html"><img src="img/back button.svg" alt="volver" height="30px" width="30px"></a></div>
+        </center>
+            
+    
+        </form>
+</body>
+</html>

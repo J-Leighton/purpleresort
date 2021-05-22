@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML LOGIN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="formulario.html">
+</head>
+<body background="img/fondo.jpg">
+    <form action="login01.html" class="form-box animated fadeInUp" method="POST">
+        <center>
+            <h1 class="form-title">Ingresar</h1>
+            <center>
+                <img src="img/logo.png" alt="logo">
+            </center>
+
+            <center>
+                <input type="text" name="username" id="username" placeholder="Nombre de usuario" required minlength="5" maxlength="14">
+            </center>
+            
+            <center>
+                <input type="password" name="constraseña" id="constraseña" placeholder="Contraseña" required minlength="5" maxlength="14">
+            </center>
+
+            <button type="submit"><a href="index.html">Ingresar</a></button>
+            <div id="volver"><a href="formulario.html" target="blank">¿No estás registrado? Regístrate aquí</a></div>
+            <div class="botonVolver"><a href="index.html"><img src="img/back button.svg" alt="volver" height="30px" width="30px"></a></div>
+        </center>
+    </form>
+</body>
+</html>
